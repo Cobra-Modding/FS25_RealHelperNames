@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="111">
+    <author>Marcus (Cobra Modding)</author>
+    <version>1.0.0.0</version>
+	
+    <title>
+        <de>Reale Helfernamen</de>
+        <en>Real Helper Names</en>
+    </title>
+	
+    <description>
+        <de><![CDATA[Ersetzt Helfer A bis J nach dem Laden der Karte durch feste Namen und passende Standardfiguren.]]></de>
+        <en><![CDATA[Replaces helpers A through J after map loading with fixed names and matching base-game characters.]]></en>
+    </description>
+	
+    <iconFilename>icon_realHelpersNames.dds</iconFilename>
+	
+    <multiplayer supported="true"/>
+	
+    <extraSourceFiles>
+        <sourceFile filename="scripts/RealHelperNames.lua"/>
+    </extraSourceFiles>
+</modDesc>
